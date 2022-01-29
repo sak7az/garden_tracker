@@ -1,0 +1,11 @@
+{
+  "name": "garden-tracker",
+  "version": "1.0.0",
+  "description": "web application that tracks information about planting of different varietals over a growing season",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephanie Thoma",
+  "license": "ISC"
+}
