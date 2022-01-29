@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Garden Tracker</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Web application that tracks information about the planting of different varietals over a growing season">
+    </head>
+    <body> 
+        <header>
+            <h1>Garden Tracker</h1>
+        </header>
+        <main>
+            <table>
+                <form>
+                    <tr>
+                        <td>
+                            <label for="event">I'd like to record that I ...</label>
+                        </td>
+                        <td>
+                            <select id="event" name="event">
+                                <option value="start_indoors">started indoors from seed.</option>
+                                <option value="plant_outside">planted a starter outside.</option>
+                                <option value="direct_sow">direct-sowed outside.</option>
+                                <option value="first_yield">harvested for the first time this year.</option>
+                                <option value="last_yield">harvested for the last time this year.</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="varietal">Varietal: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="varietal" name="varietal"></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date">Date: </label>
+                        </td>
+                        <td>
+                            <input type="date" id="date" name="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit">
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </main>
+    </body>
+</html>
